@@ -23,7 +23,7 @@ public class LoteriaHilo extends Thread {
                     if (numeros.add(numero)) {
                         v.lblCarta.setIcon(new ImageIcon("src/cartas/" + numero + ".png"));
                         try {
-                            sleep(500);
+                            sleep(5000);
                         } catch (InterruptedException ex) {
                             Logger.getLogger(LoteriaHilo.class.getName()).log(Level.SEVERE, null, ex);
                         }
